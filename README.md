@@ -6,3 +6,10 @@ I once wrote a program that did this, but I can't find it so I made another one.
 
 ### Quality of a program
 Code could be abstracted more. Lot of repetetive conditionals.
+
+
+## Istructions
+To build, run: ./bin./build.sh
+to run, run: ./run
+
+To build tests and run tests. run: ./bin/buildtestrun.sh
