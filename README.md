@@ -10,5 +10,7 @@ Code could be abstracted more. Lot of repetetive conditionals.
 
 ## Istructions
   To build, run: ./bin./build.sh
+
   To run, run: ./run
+
   To build tests and run tests. run: ./bin/buildtestrun.sh
