@@ -28,6 +28,11 @@ SCENARIO( "Moves to scramble a rubiks cube", "[int]" ){
 					REQUIRE( newMoves.substr(i, 2) != newMoves.substr(i + 2, 2) );
 				}
 			}
+			THEN( "the string should not contain two same countermoves in a row"){
+				for(int i = 0; i< newMoves.size() - 3; i++){
+					REQUIRE( newMoves.substr(i, 3) != newMoves.substr(i + 3, 3) );
+				}
+			}
 		}
 		
 	}
